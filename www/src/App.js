@@ -1,17 +1,16 @@
-import logo from './logo.svg';
+import React from 'react';
+
+import Jumbotron from 'react-bootstrap/Jumbotron';
+import Container from 'react-bootstrap/Container';
+
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Hello, world.
-        </p>
-      </header>
-    </div>
-  );
-}
+const App = () => (
+  <Container className="p-3">
+    <Jumbotron>
+      <h1 className="header">Welcome To React-Bootstrap</h1>
+    </Jumbotron>
+  </Container>
+);
 
 export default App;
