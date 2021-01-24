@@ -1,0 +1,9 @@
+{
+  "aws": {
+    "region": "us-west-2",
+    "cognito": {
+      "user_pool_id": "us-west-2_foo",
+      "user_pool_web_client_id": "bar"
+    }
+  }
+}
